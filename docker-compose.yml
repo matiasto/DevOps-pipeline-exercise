@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   express:
-    build: .
+    image: matiasto/pipeline-exercise
     ports:
       - 127.0.0.1:8080:8080
     container_name: express
